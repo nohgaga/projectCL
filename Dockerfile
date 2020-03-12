@@ -14,4 +14,4 @@ RUN apt-get install -y php7.4-mysql
 
 EXPOSE 80
 
-CMD["apachectl", "-D", "FOREGROUND"]
+CMD ["apachectl", "-D", "FOREGROUND"]
